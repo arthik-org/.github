@@ -1,24 +1,39 @@
 # Arthik
 
-**Advancing Hospitality through Artificial Intelligence.**
+**Advancing the Future of Hospitality through Autonomous Orchestration.**
 
-Arthik is a next-generation hospitality ecosystem designed to bridge the gap between guests and premium services. By leveraging state-of-the-art AI orchestration and deterministic ranking algorithms, we provide a seamless, secure, and personalized experience for every traveler.
+Arthik is an elite hospitality ecosystem engineered to redefine the guest experience. By integrating state-of-the-art AI orchestration with deterministic ranking and enterprise-grade infrastructure, we bridge the gap between human requirements and digital fulfillment.
 
-### Strategic Pillars
+## System Architecture
 
-- **Precision Orchestration**: Utilizing LangGraph and advanced LLMs to anticipate and fulfill guest requirements.
-- **Operational Excellence**: Streamlining hotel operations through digitized concierge services and automated workflows.
-- **Secure Infrastructure**: Enterprise-grade payment processing and data management.
+The Arthik ecosystem is built on a distributed, multi-cloud architecture designed for high availability, stateful reasoning, and secure data persistence.
 
-### Core Ecosystem
+![Arthik Engineering Architecture](https://res.cloudinary.com/dy2fjgt46/image/upload/v1772230850/Arthik-architecture_oyp5y7.png)
 
-- **server-arthik**: The central intelligence engine, handling orchestration and decision-making logic.
-- **client-arthik**: The high-performance frontend interface for seamless guest interactions.
+## The Product Ecosystem
 
-### Digital Presence
+### [server-arthik](https://github.com/Arthik-org/server-arthik)
+The central intelligence engine of the platform. A high-performance Python backend utilizing LangGraph for autonomous decision-making, deterministic service ranking, and complex transaction management.
 
-- **Platform**: [arthik-omega.vercel.app](https://arthik-omega.vercel.app/)
-- **Inquiries**: admin@arthik.com
+### [client-arthik](https://github.com/Arthik-org/client-arthik)
+A high-fidelity guest interface optimized for performance and clarity. Built with React and TypeScript, it provides the primary touchpoint for natural language concierge interactions.
+
+## Core Technologies
+
+- **Intelligence**: LangGraph, Kimi-K2, GPT-4o
+- **Infrastructure**: FastAPI, Vercel Serverless, Hugging Face Spaces
+- **Persistence**: Neon Serverless PostgreSQL, Redis Caching
+- **Security**: SHA-512 Hash Verification, JWT Authentication
+
+## Development & Operations
+
+Arthik is maintained with a focus on architectural elegance and operational reliability. Our CI/CD pipelines ensure seamless synchronization across distributed cloud environments.
 
 ---
-*The Arthik Engineering Team*
+
+### Connect
+- **Platform**: [arthik-omega.vercel.app](https://arthik-omega.vercel.app/)
+- **Inquiries**: admin@arthik.com
+- **Location**: Global / Remote
+
+*© 2026 Arthik Engineering Group. All rights reserved.*
